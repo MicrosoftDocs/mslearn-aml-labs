@@ -26,8 +26,8 @@ You can perform many machine learning tasks in the *Studio* interface, but it's 
 1. In the Azure Machine Learning studio web interface for your workspace, view the **Compute** page. This is where you'll manage all the compute targets for your data science activities.
 2. On the **Compute Instances** tab, add a new compute instance, giving it a unique name and using the **STANDARD_DS3_V2** VM type template. You'll use this VM as a development environment.
 3. If necessary, click **Refresh** periodically until the compute instance you created has started. Then click its **Jupyter** link to open Jupyter Notebooks on the VM.
-3. In the notebook environment, create a new **Terminal**. This will open a new tab with a command shell.
-4. The Azure Machine Learning SDK is already installed in the compute instance image, but it's worth ensuring you have the latest version, with the optional packages you'll need in this course; so enter the following command to update the SDK packages:
+4. In the notebook environment, on the **New** menu, click **Terminal**. This will open a new tab with a command shell.
+5. The Azure Machine Learning SDK is already installed in the compute instance image, but it's worth ensuring you have the latest version, with the optional packages you'll need in this lab; so enter the following command to update the SDK packages:
 
     ```bash
     pip install --upgrade azureml-sdk[notebooks,automl,explain]
@@ -35,14 +35,14 @@ You can perform many machine learning tasks in the *Studio* interface, but it's 
 
     > **More Information**: For more details about installing the Azure ML SDK and its optional components, see the [Azure ML SDK Documentation](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py).
 
-5. Next, run the following commands to change the current directory to the **Users** directory, and retrieve the notebooks you will use in the labs for this course:
+6. Next, run the following commands to change the current directory to the **Users** directory, and retrieve the notebooks you will use in the labs for this course:
 
     ```bash
     cd Users
     git clone https://github.com/microsoftdocs/mslearn-aml-labs
     ```
 
-6. After the command has completed, close the terminal tab and view the home page in your Jupyter notebook file explorer. Then open the **Users** folder - it should contain an **mslearn-aml-labs** folder, containing the files you will use in the rest of this lab.
+7. After the command has completed, close the terminal tab and view the home page in your Jupyter notebook file explorer. Then open the **Users** folder - it should contain an **mslearn-aml-labs** folder, containing the files you will use in the rest of this lab.
 
 ## Use the Azure Machine Learning SDK in a Notebook
 
