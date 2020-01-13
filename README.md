@@ -5,7 +5,7 @@ languages:
 products:
 - azureml-sdk
 description: "Hands-on labs for content on Microsoft learn"
-urlFragment: "update-this-to-unique-url-stub"
+urlFragment: "https://github.com/MicrosoftDocs/mslearn-aml-labs"
 ---
 
 # Microsoft Learn - Azure Machine Learning Labs
