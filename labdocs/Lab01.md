@@ -10,9 +10,9 @@ Azure Machine Learning (Azure ML) is a Microsoft Azure-based service for running
 
 As its name suggests, a workspace is a centralized place to manage all of the Azure ML assets you need to work on a machine learning project.
 
-1. Sign into the [Azure portal](https://portal.azure.com) and create a new resource - search for "machine learning" and select **Machine Learning**. Specify a unique workspace name, create a new resource group in the **North Central US** or **UK South** region, and select the **Enterprise** workspace edition.
+1. Sign into the [Azure portal](https://portal.azure.com) and create a new resource - search for "machine learning" and select **Machine Learning**. Specify a unique workspace name, create a new resource group in the **North Central US**, **East US 2**, **North Europe**, or **UK South** region, and select the **Enterprise** workspace edition.
 
-   > **Note**: If you can't use the **North Central US** or **UK South** region, you may need to use *Notebook VMs* instead of *Container Instances* to complete the exercise due to [limited preview availability](https://docs.microsoft.com/azure/machine-learning/service/concept-compute-instance).
+   > **Note**: If you can't use any of the regions above, you may need to use *Notebook VMs* instead of *Container Instances* to complete the exercise due to [limited preview availability](https://docs.microsoft.com/azure/machine-learning/service/concept-compute-instance).
    >
    > Basic edition workspaces have lower cost, but don't include capabilities like Auto ML, the Visual Designer, and data drift monitoring. For more details, see [Azure Machine Learning pricing](https://azure.microsoft.com/pricing/details/machine-learning/).
 2. When the workspace and its associated resources have been created, view the workspace in the portal. You can manage workspace assets in the Azure portal, but for data scientists, this tool contains lots of irrelevant information and links that relate to managing general Azure resources. An alternative, Azure ML-specific web interface for managing workspaces is available.
