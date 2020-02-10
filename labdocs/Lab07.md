@@ -16,10 +16,11 @@ In this task, you'll use automated machine learning to determine the optimal alg
 2. When the compute instance is running, click the **Jupyter** link to open the Jupyter home page in a new browser tab.
 3. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **07-Automated_ML.ipynb** notebook. Then read the notes in the notebook, running each code cell in turn.
 
-    > **Tip**: If you cloned the repository previously, and the notebook file is not in the **Users/mslearn-aml-labs** folder, open a new terminal in your Jupyter environment and run the following commands to refresh the lab files: 
+    > **Tip**: If you cloned the repository previously, and the notebook file is not in the **Users/mslearn-aml-labs** folder, open a new terminal in your Jupyter environment and run the following commands to refresh the lab files (overwriting any changes you have made):
 
     ```bash
     cd Users/mslearn-aml-labs
+    git reset --hard HEAD
     git pull
     ```
 
