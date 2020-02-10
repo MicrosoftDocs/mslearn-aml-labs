@@ -18,7 +18,7 @@ Guidance on onboarding samples to docs.microsoft.com/samples: https://review.doc
 Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
 -->
 
-This repository contains the files necessary for hands-on labs to support content on [Microsoft Learn](https://azure.com/learn).
+This repository contains the files necessary for hands-on labs to support content on [Microsoft Learn](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/).
 
 ## Contents
 
@@ -39,10 +39,10 @@ Azure Machine Learning (Azure ML) is a Microsoft Azure-based service for running
 
 ## Setup
 
-Before completing any of the labs in this repository, you must follow the instructions in [Lab 1 - Getting Started with Azure Machine Learning](./labdocs/Lab01.md) to create an Azure Machine Learning workspace and set up a compute instance to work on.
+You must follow the instructions in the first lab ([Getting Started with Azure Machine Learning](./labdocs/Lab01.md)) to create an Azure Machine Learning workspace and set up a compute instance to work on before completing any subsequent labs in this repository.
 
 ## Completing the Labs
 
 Complete the labs in order by following the links on the [Lab Exercises](./labdocs/README.md) page.
 
-Before completing each lab, we recommend you complete the associated training on [Microsoft Learn](https://azure.com/learn).
+Before completing each lab, we recommend you complete the associated training on [Microsoft Learn](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/).

@@ -1,17 +1,17 @@
-# Lab 2: Training and Registering Models
+# Creating a Pipeline
 
-Machine Learning is primarily about training models that you can use to provide predictive services to applications; so now it's time to see how you can use Azure Machine Learning experiments to run training scripts, and how to register the resulting trained models.
+You can use the Azure Machine Learning SDK to perform all of the tasks required to create and operate a machine learning solution in Azure. Rather than perform these tasks individually, you can use pipelines to orchestrate the steps required to prepare data, run training scripts, register models, and other tasks.
 
 ## Before You Start
 
 Before you start this lab, ensure that you have completed the *Create an Azure Machine Learning Workspace* and *Create a Compute Instance* tasks in [Getting Started with Azure Machine Learning](Lab01.md). Then return to this lab.
 
-## Use the Azure Machine Learning SDK to Train and Register Models
+## Create and Run a Pipeline
 
-In this task, you'll use code in a notebook to run training scripts as Azure Machine Learning experiments.
+In this task, you'll create a pipeline to train and register a model.
 
 1. In [Azure Machine Learning studio](https://ml.azure.com), view the **Compute** page for your workspace; and on the **Compute Instances** tab, ensure your compute instance is running. If not, start it.
 2. When the compute instance is running, click the **Jupyter** link to open the Jupyter home page in a new browser tab.
-3. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **02-Training_Models.ipynb** notebook. Then read the notes in the notebook, running each code cell in turn.
+3. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **05-Creating_a_Pipeline.ipynb** notebook. Then read the notes in the notebook, running each code cell in turn.
 
 > **Important**: When you have finished the lab, close all Jupyter tabs and **Stop** your compute instance to avoid incurring unnecessary costs.
