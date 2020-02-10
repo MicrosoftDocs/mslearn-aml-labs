@@ -35,7 +35,7 @@ You can perform many machine learning tasks in the *Studio* interface, but it's 
 
     > **More Information**: For more details about installing the Azure ML SDK and its optional components, see the [Azure ML SDK Documentation](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py).
 
-6. Next, run the following commands to change the current directory to the **Users** directory, and retrieve the notebooks you will use in the labs for this course:
+6. Next, run the following commands to change the current directory to the **Users** directory, and retrieve the notebooks you will use in this lab:
 
     ```bash
     cd Users

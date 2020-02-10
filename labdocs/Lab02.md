@@ -6,6 +6,9 @@ Machine Learning is primarily about training models that you can use to provide 
 
 Before you start this lab, ensure that you have completed the *Create an Azure Machine Learning Workspace* and *Create a Compute Instance* tasks in [Getting Started with Azure Machine Learning](Lab01.md). Then return to this lab.
 
+If you previously completed [Getting Started with Azure Machine Learning](Lab01.md), start your your compute instance, connect to **Jupyter**, and open a new terminal. Then run the following
+
+
 ## Use the Azure Machine Learning SDK to Train and Register Models
 
 In this task, you'll use code in a notebook to run training scripts as Azure Machine Learning experiments.
@@ -13,5 +16,12 @@ In this task, you'll use code in a notebook to run training scripts as Azure Mac
 1. In [Azure Machine Learning studio](https://ml.azure.com), view the **Compute** page for your workspace; and on the **Compute Instances** tab, ensure your compute instance is running. If not, start it.
 2. When the compute instance is running, click the **Jupyter** link to open the Jupyter home page in a new browser tab.
 3. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **02-Training_Models.ipynb** notebook. Then read the notes in the notebook, running each code cell in turn.
+
+    > **Tip**: If you cloned the repository previously, and the notebook file is not in the **Users/mslearn-aml-labs** folder, open a new terminal in your Jupyter environment and run the following commands to refresh the lab files: 
+
+    ```bash
+    cd Users/mslearn-aml-labs
+    git pull
+    ```
 
 > **Important**: When you have finished the lab, close all Jupyter tabs and **Stop** your compute instance to avoid incurring unnecessary costs.
