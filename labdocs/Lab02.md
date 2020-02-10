@@ -6,9 +6,6 @@ Machine Learning is primarily about training models that you can use to provide 
 
 Before you start this lab, ensure that you have completed the *Create an Azure Machine Learning Workspace* and *Create a Compute Instance* tasks in [Getting Started with Azure Machine Learning](Lab01.md). Then return to this lab.
 
-If you previously completed [Getting Started with Azure Machine Learning](Lab01.md), start your your compute instance, connect to **Jupyter**, and open a new terminal. Then run the following
-
-
 ## Use the Azure Machine Learning SDK to Train and Register Models
 
 In this task, you'll use code in a notebook to run training scripts as Azure Machine Learning experiments.
