@@ -1,4 +1,4 @@
-# Lab 2: Training and Registering Models
+# Training and Registering Models
 
 Machine Learning is primarily about training models that you can use to provide predictive services to applications; so now it's time to see how you can use Azure Machine Learning experiments to run training scripts, and how to register the resulting trained models.
 

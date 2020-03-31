@@ -12,6 +12,6 @@ Before completing each lab, we recommend you review the associated training on [
 - [Working with Compute](Lab04.md)
 - [Creating a Pipeline](Lab05.md)
 - [Deploying a Model as a Real-Time Service](Lab06.md)
-- [Automated Machine Learning](Lab06.md)
+- [Automated Machine Learning](Lab07.md)
 
 > **Note**: For the best experience, complete the labs in the order in which they are listed above. You ***must*** complete at least the first two tasks in [Getting Started with Azure Machine Learning](Lab01.md) to provision an Azure Machine Learning workspace and create a compute instance before completing any other labs.

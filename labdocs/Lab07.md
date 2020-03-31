@@ -1,4 +1,4 @@
-# Lab 3: Automated Machine Learning
+# Automated Machine Learning
 
 Determining the right algorithm and preprocessing transformations for model training can involve a lot of guesswork and experimentation.
 

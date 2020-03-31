@@ -1,4 +1,4 @@
-# Lab 1: Getting Started with Azure Machine Learning
+# Getting Started with Azure Machine Learning
 
 In this exercise, you will create the Azure Machine Learning workspace and a compute instance, and clone the lab files to your workspace. You'll then run a simple Python experiment in your workspace.
 
