@@ -14,9 +14,10 @@ As its name suggests, a workspace is a centralized place to manage all of the Az
 
    > **Note**: Basic edition workspaces have lower cost, but don't include capabilities like Auto ML, the Visual Designer, and data drift monitoring. For more details, see [Azure Machine Learning pricing](https://azure.microsoft.com/pricing/details/machine-learning/).
 
-2. When the workspace and its associated resources have been created, view the workspace in the portal. You can manage workspace assets in the Azure portal, but for data scientists, this tool contains lots of irrelevant information and links that relate to managing general Azure resources. An alternative, Azure ML-specific web interface for managing workspaces is available.
-3. In the Azure portal blade for your Azure Machine Learning workspace, click the link to launch **Azure Machine Learning studio**; or alternatively, in a new browser tab, open [https://ml.azure.com](https://ml.azure.com). If prompted, sign in using the Microsoft account associated with your Azure subscription and select your Azure subscription and workspace.
-4. View the Azure Machine Learning studio interface for your workspace - you can manage all of the assets in your workspace from here.
+2. When the workspace and its associated resources have been created, view the workspace in the portal. Find the Access Control (IAM) option and click it. Find the area "Add Role Assignment" and press the Add button. The "Add Role Assignment" blade appears. From that select "Owner" as Role, leave default for "Assign Access To", select your userid. Press Save to provide the access. Without this step, you will get an authorized error when you try to open the Jupyter notebook.
+3. You can manage workspace assets in the Azure portal, but for data scientists, this tool contains lots of irrelevant information and links that relate to managing general Azure resources. An alternative, Azure ML-specific web interface for managing workspaces is available.
+4. In the Azure portal blade for your Azure Machine Learning workspace, click the link to launch **Azure Machine Learning studio**; or alternatively, in a new browser tab, open [https://ml.azure.com](https://ml.azure.com). If prompted, sign in using the Microsoft account associated with your Azure subscription and select your Azure subscription and workspace.
+5. View the Azure Machine Learning studio interface for your workspace - you can manage all of the assets in your workspace from here.
 
 ## Create a Compute Instance
 
