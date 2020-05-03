@@ -23,7 +23,7 @@ As its name suggests, a workspace is a centralized place to manage all of the Az
 You can perform many machine learning tasks in the *Studio* interface, but it's also important to be able to script configuration tasks and data experiments to make them easier to repeat and automate. *Compute Instances* provide a virtual machine that you can use as a hosted development workstation to do this.
 
 1. In the Azure Machine Learning studio web interface for your workspace, view the **Compute** page. This is where you'll manage all the compute targets for your data science activities.
-2. On the **Compute Instances** tab, add a new compute instance, giving it a unique name and using the **STANDARD_DS3_V2** VM type template. You'll use this VM as a development environment.
+2. On the **Compute Instances** tab, add a new compute instance, giving it a unique name and using the **CPU** virtual machine type and **STANDARD_DS3_V2** virtual machine size. You'll use this VM as a development environment.
 3. If necessary, click **Refresh** periodically until the compute instance you created has started. Then click its **Jupyter** link to open Jupyter Notebooks on the VM.
 4. In the notebook environment, on the **New** menu, click **Terminal**. This will open a new tab with a command shell.
 5. The Azure Machine Learning SDK is already installed in the compute instance image, but it's worth ensuring you have the latest version, with the optional packages you'll need in this lab; so enter the following command to update the SDK packages:
