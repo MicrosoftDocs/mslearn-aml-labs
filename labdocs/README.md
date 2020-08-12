@@ -16,7 +16,8 @@ Before completing each lab, we recommend you review the associated training on [
 - [Tuning Hyperparameters](Lab08.md)
 - [Automated Machine Learning](Lab09.md)
 - [Interpreting Models](Lab10.md)
-- [Monitoring Models](Lab11.md)
-- [Monitoring Data Drift](Lab12.md)
+- [Detecting and Mitigating Unfairness in Models](Lab11.md)
+- [Monitoring Models](Lab12.md)
+- [Monitoring Data Drift](Lab13.md)
 
 > **Note**: For the best experience, complete the labs in the order in which they are listed above. You ***must*** complete at least the first two tasks in [Getting Started with Azure Machine Learning](Lab01.md) to provision an Azure Machine Learning workspace and create a compute instance before completing any other labs.
