@@ -8,9 +8,9 @@ Before you start this lab, ensure that you have completed the *Create an Azure M
 
 ## Use FairLearn to analyze and mitigate unfairness
 
-In this task, you'll train a model and use the **FairLearn** package to analyze it for disparity of predictive performance across specific subsections of the population. You'll also integrate FairLearn analysis into an Azure Machine Learning workspace.
+In this task, you'll train a model and use the **Fairlearn** package to analyze it for disparity of predictive performance across specific subsections of the population. You'll also integrate FairLearn analysis into an Azure Machine Learning workspace.
 
-> **Note**: The FairLearn package used in this exercise has dependencies on specific versions of common Python packages. To avoid potential conflicts, you're going to create a separate Conda environment and associated Jupyter kernel specifically for this exercise.
+> **Note**: The Fairlearn package used in this exercise has dependencies on specific versions of common Python packages. To avoid potential conflicts, you're going to create a separate Conda environment and associated Jupyter kernel specifically for this exercise.
 
 1. In [Azure Machine Learning studio](https://ml.azure.com), view the **Compute** page for the workspace you created in the [Getting Started with Azure Machine Learning](Lab01.md) lab; and on the **Compute Instances** tab, ensure your compute instance is running. If not, start it.
 2. When the compute instance is running, click the **Jupyter** link to open the Jupyter home page in a new browser tab.
@@ -26,7 +26,7 @@ In this task, you'll train a model and use the **FairLearn** package to analyze 
     conda deactivate
     ```
 
-5. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **11-FairLearn.ipynb** notebook.
+5. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **11-Fairlearn.ipynb** notebook.
 6. Make sure the notebook is connected to the **aml-fair** kernel. Then read the notes in the notebook, running each code cell in turn.
 
     > **Tip**: If you cloned the repository previously, and the notebook file is not in the **Users/mslearn-aml-labs** folder, open a new terminal in your Jupyter environment and run the following commands to refresh the lab files (overwriting any changes you have made):
