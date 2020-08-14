@@ -16,7 +16,7 @@ Before completing each lab, we recommend you review the associated training on [
 - [Tuning Hyperparameters](Lab08.md)
 - [Automated Machine Learning](Lab09.md)
 - [Interpreting Models](Lab10.md)
-- [Detecting and Mitigating Unfairness in Models](Lab11.md)
+- [Analyzing and Mitigating Unfairness in Models](Lab11.md)
 - [Monitoring Models](Lab12.md)
 - [Monitoring Data Drift](Lab13.md)
 
