@@ -12,6 +12,12 @@ In this task, you'll train a model and use the **Fairlearn** package to analyze 
 
 1. In [Azure Machine Learning studio](https://ml.azure.com), view the **Compute** page for the workspace you created in the [Getting Started with Azure Machine Learning](Lab01.md) lab; and on the **Compute Instances** tab, ensure your compute instance is running. If not, start it.
 2. When the compute instance is running, click the **Jupyter** link to open the Jupyter home page in a new browser tab.
+
+conda create -y -n fair python=3.6 scikit-learn pandas numpy ipykernel pip
+conda activate fair
+python -m ipkernel install --user --name=aml-fair
+conda deactivate
+
 3. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **11-Fairlearn.ipynb** notebook.
 4. Read the notes in the notebook, running each code cell in turn.
 
