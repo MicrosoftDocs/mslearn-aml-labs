@@ -16,8 +16,6 @@ urlFragment: "https://github.com/MicrosoftDocs/mslearn-aml-labs"
 > - Consolidate the labs used in the [DP-100 instructor-led course](https://docs.microsoft.com/learn/certifications/courses/dp-100t01_) and the self-paced exercises in the equivalent online modules on [Microsoft Learn](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/).
 > - Update labs to reflect recent changes in the Azure Machine Learning service and SDK.
 > - Add new labs on topics related to responsible machine learning.
->
-> After a short interval, this repo will be archived.
 
 <!-- 
 Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
